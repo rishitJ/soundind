@@ -1,0 +1,41 @@
+body
+{
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header
+{
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier;
+    color: red;
+    background: white;
+}
+.header p
+{
+    font-family: sans-serif;
+    color: grey;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.main button
+{
+    margin-top: 20px;
+    width: 350px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.footer
+{
+    bottom: 0;
+    background-color: white;
+    position: fixed;
+    font-size: 18px;
+    color: grey;
+    line-height: 3;
+    margin-right: 40%;
+    width: 100%;
+    text-align: center;
+}
